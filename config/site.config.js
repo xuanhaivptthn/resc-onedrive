@@ -11,10 +11,10 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/128.png',
+  icon: '/icons/logo.png',
 
   // The name of your website. Present alongside your icon.
-  title: "lyc8503's OneDrive",
+  title: "RESC26 VODs",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
   baseDirectory: process.env.BASE_DIRECTORY || '/',
@@ -39,10 +39,10 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/Private', '/Demo/😎Another Private Folder Password 123'],
+  protectedRoutes: ['/Private'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:me@lyc8503.net',
+  email: "",
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
